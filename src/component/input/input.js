@@ -16,11 +16,8 @@ export default function Inputs() {
 
   return (
     <form className={classes.root} noValidate autoComplete="off">
-      <Input
-        defaultValue="Enter Item Here"
-        inputProps={{ "aria-label": "description" }}
-      />
-      <Button variant="contained" color="primary">
+      <Input inputProps={{ "aria-label": "description" }} />
+      <Button className="new-item-input" variant="contained" color="primary">
         {" "}
         +{" "}
       </Button>
