@@ -15,6 +15,8 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Inputs() {
   const classes = useStyles();
+
+  //Anonymous function that handles the submit. Needs more work.
   const handleSubmit = (e) => {
     e.preventDefault();
 

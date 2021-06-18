@@ -1,11 +1,29 @@
-import { IconButton } from "@material-ui/core";
+import { Container, Fab, Icon, withStyles } from "@material-ui/core";
 import { Delete } from "@material-ui/icons";
-export default function TodoList() {
+
+const styles = (theme) => ({
+  fab: {
+    margin: theme.spacing.unit,
+  },
+  extendedIcon: {
+    marginRight: theme.spacing.unit,
+  },
+});
+
+export function TodoList(props) {
+  const { classes } = props;
   return (
     <div>
-      <IconButton variant="outlined" size="small" color="secondary">
-        <Delete />
-      </IconButton>
+      <Container>
+        <Fab color="secondary" aria-label="Edit" className={classes.fab}>
+          <Icon>edit_icon</Icon>
+        </Fab>
+        <Fab disabled aria-label="Delete" className={classes.fab}>
+          <Delete />
+        </Fab>
+      </Container>
     </div>
   );
 }
+
+export default withStyles(styles)(TodoList);
