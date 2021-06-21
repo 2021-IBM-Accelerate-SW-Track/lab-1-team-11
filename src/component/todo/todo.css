@@ -1,7 +1,11 @@
+#deleteBtn {
+  float: right;
+}
+
 #editBtn {
   float: right;
 }
 
-#deleteBtn {
-  float: right;
+#chkBox {
+    float:left;
 }
