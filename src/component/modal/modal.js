@@ -17,7 +17,7 @@ const Modal = (props) => {
         <div className="modal-header">
         <input className="modal-title" type="text" name="name"/>
         </div>
-        <div className="modal-body">Edit Item Here</div>
+        <input type="submit" name="name" className="modal-body"/>
         <div className="modal-footer">
           <Button variant="contained" color="secondary" className="button1" onClick={handleClose}>
             Close
