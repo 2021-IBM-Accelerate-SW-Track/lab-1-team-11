@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./modal.css";
+import { Button } from "@material-ui/core";
 
 
 const Modal = (props) => {
@@ -18,13 +19,13 @@ const Modal = (props) => {
         </div>
         <div className="modal-body">This is a modal.</div>
         <div className="modal-footer">
-          <button className="button1" onClick={handleClose}>
+          <Button variant="contained" color="secondary" className="button1" onClick={handleClose}>
             Close
             <Modal close={close} />
-          </button>
-          <button className="button2" onClick={handleClose}>Save Changes
+          </Button>
+          <Button variant="contained" color="primary" className="button2" onClick={handleClose}>Save Changes
           <Modal close={close} />
-          </button>
+          </Button>
         </div>
       </div>
     </div>
