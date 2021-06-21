@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./modal.css";
+
 
 const Modal = (props) => {
   const [close, setClose] = useState(false);
@@ -16,11 +18,13 @@ const Modal = (props) => {
         </div>
         <div className="modal-body">This is a modal.</div>
         <div className="modal-footer">
-          <button className="button" onClick={handleClose}>
+          <button className="button1" onClick={handleClose}>
             Close
             <Modal close={close} />
           </button>
-          <button className="button" onClick={handleClose}>Save Changes</button>
+          <button className="button2" onClick={handleClose}>Save Changes
+          <Modal close={close} />
+          </button>
         </div>
       </div>
     </div>

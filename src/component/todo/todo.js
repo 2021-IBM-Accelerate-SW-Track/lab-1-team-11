@@ -27,8 +27,8 @@ export default function TodoList() {
         <Icon id="editBtn" onClick={handleShow}>
           edit_icon
         </Icon>
-        <Modal show={show} />
         <Delete id="deleteBtn" />
+        <Modal show={show} />
       </Container>
     </div>
   );
