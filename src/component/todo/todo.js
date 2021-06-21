@@ -7,7 +7,7 @@ import "./todo.css";
 
 export default function TodoList() {
   const [show, setShow] = useState(false);
-  const [checked, setChecked] = React.useState(true);
+  const [checked, setChecked] = React.useState(false);
 
   const handleChange = (event) => {
     setChecked(event.target.checked);
