@@ -1,6 +1,9 @@
-//import React, { useState } from "react";
+import React, { useState } from "react";
 import { Container, Fab, Icon, withStyles } from "@material-ui/core";
 import { Delete } from "@material-ui/icons";
+import Modal from "../modal";
+import "./todo.css";
+
 
 //We want to eventually import useState in order to
 // track the state of each item for editing purposes
@@ -19,14 +22,19 @@ const styles = (theme) => ({
 
 export function TodoList(props) {
   const { classes } = props;
+  const [show, setShow] = useState(false);
+
+  // const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   return (
     <div>
       <Container>
-        <Fab color="secondary" aria-label="Edit" className={classes.fab}>
-          <Icon>edit_icon</Icon>
+        <Fab id ="editBtn" color="secondary" aria-label="Edit" className={classes.fab}>
+          <Icon onClick={handleShow}>edit_icon</Icon>
+          <Modal show={show} />
         </Fab>
-        <Fab disabled aria-label="Delete" className={classes.fab}>
+        <Fab id ="deleteBtn" disabled aria-label="Delete" className={classes.fab}>
           <Delete />
         </Fab>
       </Container>
