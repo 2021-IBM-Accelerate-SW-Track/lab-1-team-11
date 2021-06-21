@@ -12,7 +12,7 @@ const Modal = (props) => {
     <div className="modal">
       <div className="modal-content">
         <div className="modal-header">
-          <h4 className="modal-title">Edit Item</h4>
+        <input className="modal-title" type="text" name="name"/>
         </div>
         <div className="modal-body">This is a modal.</div>
         <div className="modal-footer">
@@ -20,6 +20,7 @@ const Modal = (props) => {
             Close
             <Modal close={close} />
           </button>
+          <button className="button" onClick={handleClose}>Save Changes</button>
         </div>
       </div>
     </div>
