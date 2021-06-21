@@ -1,1 +1,11 @@
+#deleteBtn {
+  color: green;
+}
 
+#deleteBtn:hover {
+  color: red;
+}
+
+#editBtn:hover {
+  color: orange;
+}

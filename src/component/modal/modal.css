@@ -1,0 +1,22 @@
+.button1 {
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px;
+    padding-right: 10px;
+}
+.button2 {
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.button1:hover {
+
+    background-color:crimson; 
+    color:black;
+}
+
+.button2:hover {
+
+    background-color:blueviolet; 
+    color:black;
+}
