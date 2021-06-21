@@ -1,11 +1,22 @@
 #deleteBtn {
   float: right;
+  margin-right: 60px;
+  padding-left: 100px;
+  size: 50px;
+  color: green;
+}
+
+#deleteBtn:hover {
+  color: red;
 }
 
 #editBtn {
   float: right;
+  margin-right: 100px;
+  padding-right: 45;
 }
 
-#chkBox {
-    float:left;
+#editBtn:hover {
+  color: orange;
 }
+
