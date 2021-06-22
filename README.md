@@ -1,3 +1,26 @@
+# This is about an hour late due to Git issues inside the Terminal. It was not properly executing the git commands no matter what we tried. We ended up having to edit each changed file within Github and pasting our code from VSCode, which we did not know we could do until an hour after the time it was due. This was finished an hour before it was due, and if you'd like some proof of our Git failures prior to the 11:59 PM deadline, we have emails of every time Git failed and would be happy to show you. Please do not penalize us for being late with submitting the assignment. 
+
+Thank you,
+Team 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Lab 1: To-do list application
 ## Introduction
 As a team, you should create and style the front-end of a to-do list web application using React and Material UI components. A typical user wants to be able to use a to-do list to organize tasks. Keeping user stories in mind when designing applications helps determine important features. We encourage you to take a unique approach to this lab as there is no one right answer. 
