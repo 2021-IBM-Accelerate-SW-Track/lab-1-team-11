@@ -1,4 +1,5 @@
-# This is about an hour late due to Git issues inside the Terminal. It was not properly executing the git commands no matter what we tried. We ended up having to edit each changed file within Github and pasting our code from VSCode, which we did not know we could do until an hour after the time it was due. This was finished an hour before it was due, and if you'd like some proof of our Git failures prior to the 11:59 PM deadline, we have emails of every time Git failed and would be happy to show you. Please do not penalize us for being late with submitting the assignment. 
+# Message from the team
+This is about an hour late due to Git issues inside the Terminal. It was not properly executing the git commands no matter what we tried. We ended up having to edit each changed file within Github and pasting our code from VSCode, which we did not know we could do until an hour after the time it was due. This was finished an hour before it was due, and if you'd like some proof of our Git failures prior to the 11:59 PM deadline, we have emails of every time Git failed and would be happy to show you. Please do not penalize us for being late with submitting the assignment. 
 
 Thank you,
 Team 11
